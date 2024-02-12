@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamnho da sua janela para aproveita a melhor experiência.</p>
+
+    <picture>
+
+        <source media="(min-width: 1000px)" srcset="imagens/victor-g.png" type="image/png">
+
+        <source media="(max-width: 800px)" srcset="imagens/victor-p.png" type="image/png">
+
+        <img src="imagens/victor-m.png" alt="imagem flexível">
+
+    </picture>
+</body>
+</html>
