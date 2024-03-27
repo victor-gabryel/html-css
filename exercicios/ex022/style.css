@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: linear-gradient(to left, black, red);
+    background-image: linear-gradient(to left, black, rgb(65, 55, 55));
 }
 
 main {
@@ -22,7 +22,7 @@ main {
 }
 
 header {
-    background-image: linear-gradient(to left, white, gray);
+    background-image: linear-gradient(to left, rgb(151, 130, 130), gray);
     background-color: white;
     min-height: 150px;
     text-align: center;
